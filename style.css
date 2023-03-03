@@ -1,0 +1,300 @@
+*
+{
+    box-sizing: border-box;
+}
+.pd
+{
+    padding: 0 10%;
+}
+.icone
+{
+    color: #D20024;
+}
+.container
+{
+    padding: 0 10%;
+    display: flex;
+    justify-content:space-between;
+}
+.header .container ul li 
+{
+    display:inline-block;
+    padding:0 1rem;
+    list-style: none;
+    color: white;
+    
+}
+.header .container ul li:last-child 
+{
+    padding-right: 0;
+}
+.header .container ul li:first-child 
+{
+    padding-left: 0;
+}
+.bg-grey
+{
+    background-color:#292a35;
+}
+.barre 
+{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 2rem;
+    background-color: #1E1F29;
+    padding-bottom: 2rem;
+}
+.barre select{
+    padding: 1rem;
+    border-radius: 30px 0 0 30px;
+    border: 0;
+}
+.barre input{
+    margin: 0 -1%;
+    padding:1rem ;
+    border: 0;
+    
+
+}
+.barre input:last-child
+{
+        border-radius: 0 30px 30px 0;
+        background-color: var(--rouge);
+        color: aliceblue;
+        padding:1rem ;
+}
+.barre .breukh
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.menu ul
+{
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    
+}
+.menu ul li
+{
+    padding: 0 2%;
+}
+.menu ul li:first-child
+{
+    border-bottom: 2x solid #D20024;
+    color: #D20024;
+}
+
+
+.image1
+{
+    display: flex;
+    justify-content:space-between;
+}
+img
+{
+background-color: #D20024;
+}
+
+.premier
+{
+    display: flex;
+}
+.img
+{
+    border: 1px solid;
+    background-color: #000;
+    flex: 1;
+    padding:2rem;
+    position: relative;
+    overflow: hidden;
+}
+.body
+{
+    font-family:"Montserrat-sans serif";
+   
+}
+.contain
+{
+    border: 1px solid;
+    width: 85%;
+    block-size: 80rem;
+    margin: auto;
+}
+ .part1
+{
+    border: 1px solid;
+    block-size: 2rem;
+    width:100%;
+    display: flex;
+    justify-content: space-around;  
+    background-color: rgb(74, 74, 79);
+} 
+.couleur
+{
+ color: white;
+}
+.icone
+{
+    color:#D20024
+}
+
+.cote_droite
+{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cote_gauche
+{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.part2
+{
+    background-color:black;
+    border-bottom: 2px solid #D20024;
+  
+}
+.entete_2
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    align-items: center;
+
+}
+.breu
+{
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: white;
+}
+.fin
+{
+    width: 20%;
+    display: flex;
+   justify-content: space-between;
+   color: white;
+}
+.nav
+{
+    display: flex;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.part3
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    block-size: 3rem;
+    align-items: center;
+}
+.home
+{
+    color: #D20024;
+   border-bottom: 2px solid;
+
+}
+.part4
+{
+    display: flex;
+    width: 71rem;
+    justify-content: space-between;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+.image_1
+{
+    display: flex;
+    block-size: 15rem;
+    width: 20rem;
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    border: 1px solid;
+
+}
+ .teinte
+{
+    position: absolute;
+    background-color: #f7153b;
+    width: 20%;
+    block-size: 10%;
+    transform: rotate(130deg) translate(-149px,-60px);
+} 
+.image_2
+{
+    width: 320px;
+    block-size: 15rem;
+}
+
+.part_5
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-left:12rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+.materiels
+{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  
+}
+.new_product
+{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.Lap
+{
+    color: #D20024;
+    border-bottom:2px solid #D20024;
+}
+.meme_color
+{
+    color:rgb(152, 148, 148)
+}
+.part_6
+{
+    display: flex;
+    width: 72%; 
+    margin-top: 2rem; 
+    margin-left: 12rem;   
+}
+
+.image_part6
+{
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+.etoile
+{
+    color: #D20024;
+    font-size: 10px;   
+}
+.trait
+{
+    border-bottom: 1px solid;
+    width: 5em;
+    margin-left: 5em;
+    color: black;
+}
+
+
